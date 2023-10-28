@@ -48,6 +48,7 @@ nav > ul > div {
     opacity: 0.9;
     font-weight: 400;
     text-decoration: none;
+    color: #1A1A1A;
 }
 
 #landing {
@@ -92,7 +93,7 @@ h1 {
 span {
     font-size: 4.25rem;
     text-align: center;
-    border-bottom: #1DB954 solid 5px;
+    border-bottom: #00B172 solid 5px;
     padding-bottom: 1.5rem;
     margin-top: 6rem;
     font-weight: 800;
@@ -117,7 +118,7 @@ span {
 }
 
 h3 {
-    color: #1DB954;
+    color: #00B172;
     font-weight: bolder;
     font-size: 3rem;
     margin-top: 20px;
@@ -136,8 +137,32 @@ h3 {
 #green {
     position: relative;
     top: 27rem;
-    background-color:  #1DB954;
+    background-color:  #00B172;
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
+    color:#FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
+#green div > h2 {
+    font-size: 5rem;
+    border-bottom: #FFF solid 5px;
+    padding-bottom: 1.5rem;
+    font-weight: 1000;
+}
+
+#green > div > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#green > img {
+    width: 40rem;
+}
+
+#green > div img {
+    width: 10rem;
+}
