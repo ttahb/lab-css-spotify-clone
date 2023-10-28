@@ -26,7 +26,7 @@ nav {
 }
 
 #logo-image {
-    width: 25rem;
+    width: 22rem;
     margin-left: 20px;
 }
 
@@ -125,7 +125,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-.description {
+ p {
     font-size: 2.0rem;
     font-weight: 100;
     line-height: 3rem;
@@ -136,33 +136,68 @@ h3 {
 
 #green {
     position: relative;
-    top: 27rem;
+    top: 28rem;
     background-color:  #00B172;
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     color:#FFF;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
-#green div > h2 {
+#green h2 {
     font-size: 5rem;
     border-bottom: #FFF solid 5px;
     padding-bottom: 1.5rem;
-    font-weight: 1000;
+    font-weight: 900;
+}
+
+#green > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60vh;
+    margin-top: 20rem;
+}
+
+#green h3 {
+    color: #FFF;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+#green p {
+    text-align: left;
+    margin-top: 4rem;
 }
 
 #green > div > div {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+}
+
+#green > div > div > div {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: flex-start;
+}
+
+#green article {
+    margin-top: 3rem;
+    margin-bottom: 0rem;
 }
 
 #green > img {
     width: 40rem;
+    margin-top: 12rem;
 }
 
 #green > div img {
-    width: 10rem;
+    width: 18rem;
+    height: 18rem;
 }
