@@ -6,3 +6,138 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Nunito Sans";
+    overflow-x: hidden;
+    
+}
+
+nav {
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    background-color: white;
+}
+
+#logo-image {
+    width: 25rem;
+    margin-left: 20px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 25px;
+}
+
+nav > ul > div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    align-items: center;
+}
+
+.list-item {
+    font-size: 2.25rem;
+    opacity: 0.9;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#landing {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 130vh;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 11rem;
+}
+
+h1 {
+    font-size: 10rem;
+    position: relative;
+    top: 20rem;
+    word-spacing: 1rem;
+    font-weight: 700;
+}
+
+#landing p {
+    font-size: larger;
+    position: relative;
+    top: 22rem;
+    font-size: 3.5rem;
+    line-height: 4rem;
+}
+
+#features {
+    position: relative;
+    top:11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+}
+
+span {
+    font-size: 4.25rem;
+    text-align: center;
+    border-bottom: #1DB954 solid 5px;
+    padding-bottom: 1.5rem;
+    margin-top: 6rem;
+    font-weight: 800;
+}
+
+.fatures-images {
+    width: 15rem;
+    margin-top: 4rem;
+}
+
+#features div {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+#features div > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h3 {
+    color: #1DB954;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 2.0rem;
+    font-weight: 100;
+    line-height: 3rem;
+    word-spacing: 0.25rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+#green {
+    position: relative;
+    top: 27rem;
+    background-color:  #1DB954;
+    width: 100vw;
+    height: 50vh;
+}
+
